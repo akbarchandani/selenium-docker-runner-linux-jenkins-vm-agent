@@ -1,5 +1,5 @@
 pipeline{
-	agent {label 'ubuntu'}
+	agent {label 'ubuntuv1'}
 	stages{
 		stage("Pull Latest Image"){
 			steps{
